@@ -24,15 +24,17 @@ a {
 
 /* All links on hover color red*/
 
-a:hover {
+[href]:hover {
    color: red;
 }
 
-/* All Links visted color black*/
+/* All Links visted color black
 
 a:visited {
    color: black;
 }
+
+*/
 
 /* Footer disclaimer text to be .5 em*/
 
@@ -63,7 +65,7 @@ a[href="#comments"]:hover {
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
 
-a:not([href="#comments"]) {
+main a:not([href="#comments"]) {
    font-weight: bold;
    color: #1d3557;
    text-decoration: none;
